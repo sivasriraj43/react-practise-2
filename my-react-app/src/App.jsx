@@ -1,13 +1,12 @@
 
-import UserGreeting from './UserGreeting';
+import List from './List';
 
 
 function App() {
   
   return(
     <div>
-            <UserGreeting isLog={false} username="siv"/>
-
+      <List></List>
       
     </div>
 
